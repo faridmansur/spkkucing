@@ -1,4 +1,4 @@
-<title>Pengetahuan - Chirexs 1.0</title>
+<title>Pengetahuan - D'Cat Care</title>
 <?php
 
 session_start();

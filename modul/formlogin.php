@@ -18,20 +18,13 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Login Pakar - Chirexs 1.0</title>
-  <link rel="stylesheet" href="aset/login/css/style.css">
+  <title>Login Pakar - D'Cat Care</title>
+  <link rel="stylesheet" href="assets/login/css/style.css">
 </head>
 
 <body>
-  <div class="ayaem">
-    <div class="hand"></div>
-    <div class="hand hand-r"></div>
-    <div class="arms">
-      <div class="arm"></div>
-      <div class="arm arm-r"></div>
-    </div>
-  </div>
   <div class="formku">
+  <img src="assets/logo2.png" alt="Profile headshot" style="width:80px; position: absolute; top: -44px; left: calc(50% - 40px)"/>
     <div class="info">
       <h4><i class="fa fa-paper-plane"></i> Login Pakar</h4><br>
     </div>
@@ -42,8 +35,6 @@
       <input type="password" name="password" id="password" placeHolder="&#xf023;  Password"
         style="font-family:Arial, FontAwesome" />
       <input type="submit" name="submit" id="submitku" value="   Login   " /><br>
-      <p class="message">Ingin mendaftar? <a href="https://goo.gl/forms/OlZywbPBrBcG2nSy1" target="_blank">Ajukan
-          Permohonan</a></p>
     </form>
   </div>
 </body>
@@ -57,6 +48,6 @@
   });;
 </script>
 <script>
-  var d = document.getElementById("pakarayam");
+  var d = document.getElementById("pakarKucing");
   d.className += " sidebar-collapse";
 </script>

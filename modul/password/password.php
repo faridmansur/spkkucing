@@ -1,4 +1,4 @@
-<title>Ubah Password - Chirexs 1.0</title>
+<title>Ubah Password - D'Cat Care</title>
 <?php
 if ($_SESSION['username'] != "" && $_SESSION['password'] != ""){
 switch($_GET['act']){

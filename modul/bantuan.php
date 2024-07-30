@@ -1,4 +1,4 @@
-<title>Bantuan - Chirexs 1.0</title>
+<title>Bantuan - D'Cat Care</title>
 <style>
 @media only screen and (max-width: 1220px) {
     img {
@@ -135,6 +135,6 @@
             <!-- /.tab-content -->
           </div>
 		 <script>
-var d = document.getElementById("pakarayam");
+var d = document.getElementById("pakarKucing");
 d.className += " sidebar-collapse";
 </script>

@@ -1,4 +1,4 @@
-# Chirex.1.0
+# D'Cat Care
 > Sistem Pakar Diagnosa Penyakit Pada Kucing Menggunakan Metode Certainty Factor Berbasis Website Responsive.
 >
 

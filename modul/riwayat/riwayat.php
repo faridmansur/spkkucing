@@ -1,4 +1,4 @@
-<title>Riwayat - Chirexs 1.0</title>
+<title>Riwayat - D'Cat Care</title>
 <h2 class='text text-primary'>Riwayat Konsultasi</h2>
 <hr>
 <?php

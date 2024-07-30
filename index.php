@@ -25,43 +25,43 @@ include "config/fungsi_alert.php";
   <link href="css/main.css" rel="stylesheet" type="text/css" media="all" />
   <link rel=stylesheet href="css/paging.css" type="text/css" media=screen>
   <!-- Bootstrap 3.3.5 -->
-  <link rel="stylesheet" href="aset/bootstrap.css">
+  <link rel="stylesheet" href="assets/bootstrap.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="aset/AdminLTE.css">
-  <link rel="stylesheet" href="aset/cinta.css">
-  <link rel="stylesheet" href="aset/Ionicons/css/ionicons.min.css">
-  <link rel="stylesheet" href="aset/skins/_all-skins.min.css">
-  <link rel="stylesheet" href="aset/custom.css">
-  <link rel="stylesheet" href="aset/icheck/green.css">
+  <link rel="stylesheet" href="assets/AdminLTE.css">
+  <link rel="stylesheet" href="assets/cinta.css">
+  <link rel="stylesheet" href="assets/Ionicons/css/ionicons.min.css">
+  <link rel="stylesheet" href="assets/skins/_all-skins.min.css">
+  <link rel="stylesheet" href="assets/custom.css">
+  <link rel="stylesheet" href="assets/icheck/green.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <!-- jQuery 2.1.4 -->
-  <script src="aset/jQuery-2.js"></script>
+  <script src="assets/jQuery-2.js"></script>
   <!-- Bootstrap 3.3.5 -->
-  <script src="aset/bootstrap.js"></script>
-  <script src="aset/icheck/icheck.js"></script>
-  <script src="aset/ckeditor/ckeditor.js"></script>
-  <script src="aset/Flot/jquery.flot.js"></script>
+  <script src="assets/bootstrap.js"></script>
+  <script src="assets/icheck/icheck.js"></script>
+  <script src="assets/ckeditor/ckeditor.js"></script>
+  <script src="assets/Flot/jquery.flot.js"></script>
   <!-- FLOT RESIZE PLUGIN - allows the chart to redraw when the window is resized -->
-  <script src="aset/Flot/jquery.flot.resize.js"></script>
+  <script src="assets/Flot/jquery.flot.resize.js"></script>
   <!-- FLOT PIE PLUGIN - also used to draw donut charts -->
-  <script src="aset/Flot/jquery.flot.pie.js"></script>
+  <script src="assets/Flot/jquery.flot.pie.js"></script>
   <!-- FLOT CATEGORIES PLUGIN - Used to draw bar charts -->
-  <script src="aset/Flot/jquery.flot.categories.js"></script>
+  <script src="assets/Flot/jquery.flot.categories.js"></script>
   <!-- AdminLTE App -->
-  <script src="aset/app.js"></script>
+  <script src="assets/app.js"></script>
 </head>
 
-<body id="pakarayam" class="hold-transition skin-purple-light sidebar-mini">
+<body id="pakarKucing" class="hold-transition skin-red sidebar-mini">
   <div class="wrapper">
     <!-- Main Header -->
     <header class="main-header">
       <!-- Logo -->
       <a href="./" class="logo">
         <!-- mini logo for sidebar mini 50x50 pixels -->
-        <span class="logo-mini"><b><i class="fa fa-contao" aria-hidden="true"></i>XS</b></span>
+        <span class="logo-mini pt3"><img style="width: 30px;background: #fff;border-radius: 50%;" src="assets/logo2.png" alt="Profile headshot" /></span>
         <!-- logo for regular state and mobile devices -->
-        <span class="logo-lg"><b><i class="fa fa-contao" aria-hidden="true"></i>hirexs 1.0</b></span>
+        <span class="logo-lg"><b><img style="width: 30px;background: #fff;border-radius: 50%;" src="assets/logo2.png" alt="Profile headshot" /> D'Cat Care</b></span>
       </a>
       <!-- Header Navbar -->
       <nav class="navbar navbar-static-top" role="navigation">
@@ -87,16 +87,10 @@ include "config/fungsi_alert.php";
                     <img src="gambar/admin/admin.png" class="img-circle" alt="User Image">
                     <p>
                       Login sebagai <?php echo ucfirst($_SESSION['username']); ?>
-                      <small>Pakar dari Chirexs 1.0</small>
+                      <small>Pakar dari D'Cat Care</small>
                     </p>
                   </li>
                   <!-- Menu Body -->
-                  <li class="user-body">
-                    <a <?php if ($module == "bantuan")
-                      echo 'class="active"'; ?> href="bantuan"><i
-                        class="fa fa-question-circle"></i> <span>Bantuan</span></a>
-                    <!-- /.row -->
-                  </li>
                   <!-- Menu Footer-->
                   <li class="user-footer">
                     <div class="pull-left">
@@ -114,11 +108,6 @@ include "config/fungsi_alert.php";
                 </ul>
               </li>
             <?php } else { ?>
-              <li><a <?php if ($module == "bantuan")
-                echo 'class="active"'; ?> id="bantu" href="bantuan"
-                  data-toggle="tooltip" data-placement="bottom" data-delay='{"show":"300", "hide":"500"}'
-                  title="Silahkan klik link berikut, jika anda masih kurang paham tentang penggunaan aplikasi ini !"><i
-                    class="fa fa-question-circle"></i> <span>Bantuan</span></a></li>
               <li class="dropdown messages-menu">
                 <a <?php if ($module == "formlogin")
                   echo 'class="active"'; ?> href="formlogin"><i
@@ -135,7 +124,6 @@ include "config/fungsi_alert.php";
       <section class="sidebar">
         <!-- Sidebar Menu -->
         <ul class="sidebar-menu">
-          <li class="header">Menu</li>
           <!-- Optionally, you can add icons to the links -->
           <?php include "menu.php"; ?>
       </section>
@@ -250,8 +238,7 @@ include "config/fungsi_alert.php";
         }
       </script>
       <strong>
-        <div class="cinta">Copyright © 2017 - Made with <i class="fa fa-heart pulse"></i> by <a
-            href="http://januriawan.github.io" target="_blank">Januriawan</a></div>
+        <div class="cinta">Copyright © 2024 By Mahmud Zakariya Alfarozi</div>
       </strong>
     </footer>
     <!-- Add the sidebar's background. This div must be placed

@@ -1,4 +1,4 @@
-<title>Gejala - Chirexs 1.0</title>
+<title>Gejala - D'Cat Care</title>
 <?php
 
 session_start();

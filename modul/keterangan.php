@@ -1,5 +1,5 @@
-<title>Keterangan - Chirexs 1.0</title>
-<h2 class='text text-primary'>Keterangan</h2>
+<title>Keterangan - D'Cat Care</title>
+<h2 class='text text-primary'>Keterangan Penyakit</h2>
 <hr>
 <div class="row">
 
@@ -10,7 +10,7 @@
 
     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" data-aos="fade-right">
       <div class="card text-center">
-        <img class="card-img-top img-bordered-sm" src="<?php echo 'gambar/' . $r['gambar']; ?>" alt="" width="100%"
+        <img class="card-img-top img-bordered-sm" src="<?php echo 'gambar/penyakit/' . $r['gambar']; ?>" alt="" width="100%"
           height="200">
         <div class="card-block">
           <h4 class="card-title">

@@ -1,4 +1,4 @@
-<title>Penyakit - Chirexs 1.0</title>
+<title>Penyakit - D'Cat Care</title>
 <?php
 session_start();
 if (!(isset($_SESSION['username']) && isset($_SESSION['password']))) {
